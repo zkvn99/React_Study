@@ -17,12 +17,14 @@ import LoginControl from './element/Login';
 import MainPage from './element/WarningBanner';
 import LandingPage from './element/LandingPage';
 import Blog from './element/Blog';
+import SignUp from './component/SignUp';
+import Calculator from './12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <Blog />
+    <Calculator />
   </React.StrictMode>
 );
 
