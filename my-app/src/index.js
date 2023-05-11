@@ -22,13 +22,15 @@ import Calculator from './12/Calculator';
 import FancyBorder from './component/FancyBorder';
 import WelcomeDialog from './component/WelcomDialog';
 import WelcomeDialog2 from './component/Dialog';
+import ProfileCard from './component/ProfileCard';
+import ThemeContext from './context/ThemeContext';
+import DarkOrLight from './context/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <WelcomeDialog />
-    <WelcomeDialog2/>
+    <DarkOrLight />
   </React.StrictMode>
 );
 
