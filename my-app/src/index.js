@@ -19,12 +19,16 @@ import LandingPage from './element/LandingPage';
 import Blog from './element/Blog';
 import SignUp from './component/SignUp';
 import Calculator from './12/Calculator';
+import FancyBorder from './component/FancyBorder';
+import WelcomeDialog from './component/WelcomDialog';
+import WelcomeDialog2 from './component/Dialog';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <Calculator />
+    <WelcomeDialog />
+    <WelcomeDialog2/>
   </React.StrictMode>
 );
 
