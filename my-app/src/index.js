@@ -25,12 +25,14 @@ import WelcomeDialog2 from './component/Dialog';
 import ProfileCard from './component/ProfileCard';
 import ThemeContext from './context/ThemeContext';
 import DarkOrLight from './context/DarkOrLight';
+import MainPage1 from './css/MainPage1';
+import Sample from './css/Sample';
+import Blocks from './css/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
 );
 
