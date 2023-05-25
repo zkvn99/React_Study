@@ -28,11 +28,12 @@ import DarkOrLight from './context/DarkOrLight';
 import MainPage1 from './css/MainPage1';
 import Sample from './css/Sample';
 import Blocks from './css/Blocks';
+import Weather from './etc/Weather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Blocks />
+    <Weather />
   </React.StrictMode>
 );
 
