@@ -1,0 +1,11 @@
+{
+  "name": "movie-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^4.29.12",
+    "antd": "^5.5.2",
+    "axios": "^1.4.0",
+    "react-router-dom": "^6.11.2"
+  }
+}
